@@ -1,15 +1,15 @@
 [project]
-name = "comfyui_cryptocat"
+name = "comfyui_cryptocat_fork"
 description = "a lightweight open-source node for ComfyUI, designed to simplify workflows while providing encryption protection for them."
 version = "2.2.1"
 license = {file = "LICENSE"}
 dependencies = ["aiohttp", "pyzipper", "websockets"]
 
 [project.urls]
-Repository = "https://github.com/RiceRound/ComfyUI_CryptoCat"
+Repository = "https://github.com/robinjhuang/ComfyUI_CryptoCat_Fork"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = "riceround"
-DisplayName = "ComfyUI_CryptoCat"
+PublisherId = "robinjhuang"
+DisplayName = "ComfyUI_CryptoCat_Fork"
 Icon = "https://www.riceround.online/CryptoCat.svg"
